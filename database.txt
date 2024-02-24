@@ -1,0 +1,32 @@
+
+1. patient table
+[primary key]	patient_id	- INT
+first_name	- TEXT
+last_name -	TEXT
+gender -	CHAR(1)
+birth_date -	DATE
+city	- TEXT
+primary key icon	province_id -	CHAR(2)
+allergies -	TEXT
+height -	INT
+weight -	INT
+
+2. admission
+[primary key]	patient_id -	INT
+admission_date -	DATE
+discharge_date -	DATE
+diagnosis -	TEXT
+[primary key icon]	attending_doctor_id -	INT
+
+3. doctor
+[primary key]	doctor_id -	INT
+first_name - TEXT
+last_name -	TEXT
+specialty -	TEXT
+
+4.province_names
+[primary key]	province_id -	CHAR(2)
+province_name -	TEXT
+
+
+
