@@ -1,0 +1,6 @@
+--Show unique birth years from patients and order them by ascending.
+
+select 
+distinct year(birth_date) as bd 
+from patients
+order by bd asc;
