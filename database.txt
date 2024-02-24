@@ -6,7 +6,7 @@ last_name -	TEXT
 gender -	CHAR(1)
 birth_date -	DATE
 city	- TEXT
-primary key icon	province_id -	CHAR(2)
+[primary key] province_id -	CHAR(2)
 allergies -	TEXT
 height -	INT
 weight -	INT
@@ -16,7 +16,7 @@ weight -	INT
 admission_date -	DATE
 discharge_date -	DATE
 diagnosis -	TEXT
-[primary key icon]	attending_doctor_id -	INT
+[primary key]	attending_doctor_id -	INT
 
 3. doctor
 [primary key]	doctor_id -	INT
